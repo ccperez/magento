@@ -1,0 +1,13 @@
+<layouts>
+    <cms_index_index>
+        <reference name="content">
+            <block type="core/text" name="pulsestorm_goodbye_message" alias="pulsestorm_goodbye_message">
+                <action method="setText">
+                    <text><![CDATA[
+                    <h1>Goodbye World</h1>
+                    ]]></text>
+                </action>
+            </block>
+        </reference>
+    </cms_index_index>
+</layouts>

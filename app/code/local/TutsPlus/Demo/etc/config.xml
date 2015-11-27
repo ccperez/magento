@@ -1,0 +1,27 @@
+<config>
+	<modules>
+		<TutsPlus_Demo>
+			<version>0.1.0</version>
+		</TutsPlus_Demo>
+	</modules>
+	<global>
+		<models>
+			<demo>
+				<class>TutsPlus_Demo_Model</class>
+			</demo>
+		</models>
+
+		<blocks>
+			<demo>
+				<class>TutsPlus_Demo_Block</class>
+			</demo>
+		</blocks>
+
+		<helpers>
+			<demo>
+				<class>TutsPlus_Demo_Helper</class>
+			</demo>
+		</helpers>
+		
+	</global>
+</config>

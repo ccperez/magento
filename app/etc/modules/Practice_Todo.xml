@@ -1,0 +1,8 @@
+ <config>
+    <modules>
+        <Practice_Todo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Practice_Todo>
+    </modules>
+</config> 

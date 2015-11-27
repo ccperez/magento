@@ -1,0 +1,8 @@
+ <config>
+    <modules>
+        <Hobbyking_Beerlift>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Hobbyking_Beerlift>
+    </modules>
+</config> 

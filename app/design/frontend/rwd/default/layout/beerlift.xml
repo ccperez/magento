@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout version="0.1.0">
+		<default>
+			<reference name="head">
+        <action method="addItem"><type>skin_css</type><name>css/beerlift/beerlift.css</name><params/></action>
+				<action method="addItem"><type>skin_css</type><name>js/beerlift/jquery/ui/1.11.4/themes/smoothness/jquery-ui.css</name><params/></action>
+
+				<action method="addItem"><type>skin_js</type><name>js/beerlift/jquery/jquery-1.10.2/jquery-1.10.2.js</name></action>
+				<action method="addItem"><type>skin_js</type><name>js/beerlift/jquery/ui/1.11.4/jquery-ui.js</name></action>
+
+				<action method="addItem"><type>skin_js</type><name>js/beerlift/helpers.js</name></action>
+				<action method="addItem"><type>skin_js</type><name>js/beerlift/beerlift.js</name></action>
+			</reference>
+		</default>
+</layout>

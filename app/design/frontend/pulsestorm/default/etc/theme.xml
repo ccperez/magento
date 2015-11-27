@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<theme>
+    <parent>rwd/default</parent>
+    <layout>
+        <updates>
+            <some_unique_identifier_pulsestorm>
+                <file>hello.xml</file>
+            </some_unique_identifier_pulsestorm>
+            <another_unique_identifier_pulsestorm>
+                <file>goodbye.xml</file>
+            </another_unique_identifier_pulsestorm>            
+        </updates>
+    </layout>    
+</theme>

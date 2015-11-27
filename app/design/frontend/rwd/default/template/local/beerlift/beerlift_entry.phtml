@@ -1,0 +1,56 @@
+<div id="dlgEntryForm" style="display: none" title="Create new entry">
+  <p class="validateTips" style="color: red"></p><br>
+  <form id="frmBL" method="post">
+    <input type="hidden" id="idcustomer"  name="beerlift[fk_idcustomer]" value="<?php echo $login['id']; ?>">
+    <input type="hidden" id="countrycode" name="beerlift[countrycode]"   value="<?php echo $login['country_id']; ?>">
+    
+    <fieldset>
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td width="30%" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" style="font-size:10px">NAME&nbsp;:&nbsp;</font></td>
+          <td width="70%"><span id="spnCustomerName"><?php echo $login['name']; ?></span></td>
+        </tr>
+        <tr>
+          <td align="right"><font face="Verdana, Arial, Helvetica, sans-serif" style="font-size:10px">CONFIG&nbsp;:&nbsp;</font></td>
+          <td>
+          <select class="text ui-widget-content ui-corner-all" style="width: 100%; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; background-color: transparent;" name="beerlift[config]" id="config">
+            <option value="1">TRI</option>
+            <option value="2">QUAD</option>
+            <option value="3">HEX</option>
+            <option value="4">OCTO</option>
+            <option value="5">OTHER</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" style="font-size:10px">WEIGHT LIFTED&nbsp;:&nbsp;</font></td>
+          <td>
+            <input name="beerlift[weight]" id="weightLifted" type="text" size="20" style="width: 100%; display:block; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; background-color: transparent;" onKeyPress="return isNumberKey(event)">
+            <select class="text ui-widget-content ui-corner-all" style="font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; background-color: transparent;" name="beerlift[weightType]" id="weightType">
+              <option value="1">GR</option>
+              <option value="2">OZ</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><font face="Verdana, Arial, Helvetica, sans-serif" style="font-size:10px">CLASS&nbsp;:&nbsp;</font></td>
+          <td>
+          <select class="text ui-widget-content ui-corner-all" style="width: 100%; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; background-color: transparent;" name="beerlift[class]" id="blClass">
+            <option value="1">UNLIMITED</option>
+            <option value="2">CLASS 250MM</option>
+            <option value="3">CLASS 500MM</option>
+            <option value="4">DISASTER</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><font face="Verdana, Arial, Helvetica, sans-serif" style="font-size:10px">YOUTUBE URL&nbsp;:&nbsp;</font></td>
+          <td><input class="text ui-widget-content ui-corner-all" type="text" size="25" style="width: 100%; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; background-color: transparent;" value="http://www.youtube.com/" onClick="this.value=''" id="ytlink" name="beerlift[youtube]"></td>
+        </tr>
+      </table>
+
+      <!-- Allow form submission with keyboard without duplicating the dialog button -->
+      <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+    </fieldset>
+  </form>
+</div>

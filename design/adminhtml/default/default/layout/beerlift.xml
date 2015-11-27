@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <beerlift_adminhtml_beerlift_index>
+        <reference name="content">
+            <block type="beerlift/adminhtml_beerlift" name="beerlift" />
+        </reference>
+    </beerlift_adminhtml_beerlift_index>
+</layout>

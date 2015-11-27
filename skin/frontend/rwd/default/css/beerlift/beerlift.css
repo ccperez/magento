@@ -1,0 +1,51 @@
+.tdBLmore {
+  background-color: #000;
+  text-align: right;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 6px;
+  color: #ddd;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tblBL th {
+  background-color: #000;
+  color: #ddd;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 6px;
+}
+
+
+/* prizes_rules stype */
+
+.beerliftPrizeWrap{
+  position: relative;
+  width: 473px;
+  margin: 30px auto;
+  padding-top: 20px;
+  z-index:1;
+}
+.beerliftPrizeBg{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:black;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+.beerliftPrizeClose{
+  position:absolute;
+  top:0;
+  right:-10px;
+  z-index:2;
+}
+.beerliftPrizeLogo{
+  position:absolute;
+  top:0;
+  left:-36px;
+  z-index:2;
+}
+
+/* thank_you stype */
+

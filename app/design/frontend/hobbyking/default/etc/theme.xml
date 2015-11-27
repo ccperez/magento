@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<theme>
+    <parent>rwd/default</parent>
+    <layout>
+        <updates>
+            <some_unique_identifier_hobbyking>
+                <file>hello.xml</file>
+            </some_unique_identifier_hobbyking>
+        </updates>
+    </layout>    
+</theme>

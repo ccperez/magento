@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<theme>
+    <parent>pulsestorm/default</parent>
+    <layout>
+        <updates>
+            <!-- 
+            <yet_another_unique_node_name>
+                <file>hello.xml</file>
+            </yet_another_unique_node_name>
+            -->
+        </updates>
+    </layout>
+</theme>

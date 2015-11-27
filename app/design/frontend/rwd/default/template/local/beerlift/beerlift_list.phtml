@@ -1,0 +1,42 @@
+<?php $helper = $this->helper('beerlift'); ?>
+<?php $image_path = $helper->image_path; ?>
+<?php $login = $helper->getCustomerIsLogin(); ?>
+
+<table width="70%">
+	<tr>
+		<td align="center">
+			<div id="btn_enter_now_wrapper">
+				<a href="javascript:;" onClick="entryForm();">
+					<img src="<?php echo $image_path.'beerlift/btn_enter_now.png?v=1.0.1'; ?>">
+				</a>
+			</div>
+			<div id="btn_prizes_rules_wrapper">
+				<a href="javascript:;" onClick="showPrizesRules();">
+					<img src="<?php echo $image_path.'beerlift/btn_prizes_rules.png?v=1.0.1'; ?>">
+				</a>
+			</div>			
+		</td>
+	</tr>
+	<?php foreach($beerlifts as $key => $beerlift): ?>
+		<tr><td><img src="<?php echo $image_path.'beerlift/icon-'.$key.'.png?v=1.0.1'; ?>"></td></tr>
+		<tr>
+			<td>
+				<span id="snBL_<?php echo $key; ?>">
+					<?php $helper->getBeerlifts($beerlift); ?>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdBLmore" onClick="getBeerlift('<?php echo $key; ?>');">
+				<span id="spnBL_<?php echo $key; ?>">[view more]</span>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+</table>
+
+<div id="bg" class="popup_bg"></div>
+
+<?php include 'beerlift_login.phtml';?>
+<?php include 'beerlift_entry.phtml';?>
+<?php include 'thank_you.phtml';?>
+<?php include 'prizes_rules.phtml';?>

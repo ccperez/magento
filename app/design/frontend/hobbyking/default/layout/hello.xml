@@ -1,0 +1,13 @@
+<layouts>
+    <cms_index_index>
+        <reference name="content">
+            <block type="core/text" name="pulsestorm_hello_message" alias="pulsestorm_hello_message">
+                <action method="setText">
+                    <text><![CDATA[
+                    <h1>Hello World</h1>
+                    ]]></text>
+                </action>
+            </block>
+        </reference>
+    </cms_index_index>
+</layouts>

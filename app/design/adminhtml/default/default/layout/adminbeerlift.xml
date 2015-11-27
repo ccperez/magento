@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="1.0.0">
+
+  <adminhtml_beerlift_index>
+      <update handle="editor"/>
+      <reference name="content">
+          <block type="beerlift/adminhtml_form_edit" name="beerlift"/>
+      </reference>
+      <reference name="left">
+          <block type="beerlift/adminhtml_form_edit_tabs" name="beerlift_tabs"/>
+      </reference>
+  </adminhtml_beerlift_index>
+
+</layout>

@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Chiragdodia_Mymodule>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Chiragdodia_Mymodule>
+    </modules>
+</config>
