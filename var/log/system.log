@@ -9198,3 +9198,15 @@
 2015-11-27T09:18:04+00:00 ERR (3): Notice: Undefined index: id  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 4
 2015-11-27T09:18:04+00:00 ERR (3): Notice: Undefined index: country_id  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 5
 2015-11-27T09:18:04+00:00 ERR (3): Notice: Undefined index: name  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 11
+2015-11-27T09:31:59+00:00 ERR (3): Notice: Undefined index: httponly  in C:\wamp\www\magento1\app\code\core\Mage\Core\Model\Session\Abstract\Varien.php on line 104
+2015-11-27T09:31:59+00:00 ERR (3): Notice: Undefined index: secure  in C:\wamp\www\magento1\app\code\core\Mage\Core\Model\Session\Abstract\Varien.php on line 106
+2015-11-27T09:31:59+00:00 ERR (3): Notice: Undefined index: domain  in C:\wamp\www\magento1\app\code\core\Mage\Core\Model\Session\Abstract\Varien.php on line 108
+2015-11-27T09:32:02+00:00 ERR (3): Notice: Undefined index: id  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 4
+2015-11-27T09:32:02+00:00 ERR (3): Notice: Undefined index: country_id  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 5
+2015-11-27T09:32:02+00:00 ERR (3): Notice: Undefined index: name  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 11
+2015-11-27T09:35:13+00:00 ERR (3): Notice: Undefined index: httponly  in C:\wamp\www\magento1\app\code\core\Mage\Core\Model\Session\Abstract\Varien.php on line 104
+2015-11-27T09:35:13+00:00 ERR (3): Notice: Undefined index: secure  in C:\wamp\www\magento1\app\code\core\Mage\Core\Model\Session\Abstract\Varien.php on line 106
+2015-11-27T09:35:13+00:00 ERR (3): Notice: Undefined index: domain  in C:\wamp\www\magento1\app\code\core\Mage\Core\Model\Session\Abstract\Varien.php on line 108
+2015-11-27T09:35:16+00:00 ERR (3): Notice: Undefined index: id  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 4
+2015-11-27T09:35:16+00:00 ERR (3): Notice: Undefined index: country_id  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 5
+2015-11-27T09:35:16+00:00 ERR (3): Notice: Undefined index: name  in C:\wamp\www\magento1\app\design\frontend\rwd\default\template\local\beerlift\beerlift_entry.phtml on line 11
